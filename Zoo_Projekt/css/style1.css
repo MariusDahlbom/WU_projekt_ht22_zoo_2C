@@ -1,6 +1,7 @@
 header{
     background-color: rgb(218, 59, 91);
     border-bottom: 2.5px solid white;
+
 }
 nav{
     display: flex;
@@ -14,6 +15,7 @@ nav{
 h1{
     padding: 1rem ;
     margin: 1rem;
+    
 }
 
 a{
@@ -31,8 +33,8 @@ font-size: larger;
 
 #grid_wrapper{
     display: grid;
-    grid-template-columns: minmax(100px 500px) minmax(100px 500px) minmax(100px 500px) minmax(100px 250px);
-    grid-template-rows: 300px 250px 100px;
+    grid-template-columns: minmax(100px 600px) minmax(100px 600px) minmax(100px 600px) minmax(100px 400px);
+    grid-template-rows: 600px 500px 300px;
     column-gap: 2.5px;
     row-gap: 2.5px;
     grid-template-areas: 
@@ -43,7 +45,7 @@ font-size: larger;
 
 #s1{
     grid-area: s1;
-    background-color: blue;
+    background-image: url(../);
 }
 
 #s2{
